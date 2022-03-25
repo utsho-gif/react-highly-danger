@@ -1,7 +1,9 @@
 import React from 'react';
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
+    const {cart} = props;
+    console.log(cart)
     return (
         <nav className='navbar'>
             <h1>Danger Dung</h1>

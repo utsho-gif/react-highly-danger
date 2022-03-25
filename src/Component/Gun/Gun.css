@@ -29,3 +29,25 @@
     display: flex;
     align-items: center;
   }
+  .add-to-cart h2 {
+    margin-left: 25px;
+  }
+  
+  .gun-info {
+    margin: 20px 0;
+    height: calc(100% - 410px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .add-to-cart button {
+    background-color: #fff;
+    border: none;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
